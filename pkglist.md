@@ -8,30 +8,16 @@ for contributors, please specify your project/package names here if it is not ye
 
 ## Projects
 ### GitHub Distributed Repository Packages
-- Linux Kernel by Linus Torvalds
+- Bspwm by baskerville
     + Method: Manual Compilation
-    - Package Managers
-        + apt
-        + pacman
-- Neovim by Neovim
+- Sxhkd by baskerville
     + Method: Manual Compilation
-    - Package Managers
-        + apt
-        + pacman
-- Pimox by Pimox
-    + Method: Installation from external repository source
-    - Package Managers
-        + apt
-- Shellinabox by Shellinabox]
-    + Method: Manual Compilation
-    - Package Managers
-        + apt
-        + pacman
 
+### Package Manager
+- Xorg by Xorg
+    + Method: Package Manager
+    - Dependencies
+        + xorg
+        + xorg-xinit
+        + xorg-xserver
 
-### Self-Hosted/Personal Repository Servers
-- File Browser
-     + Method: Installation from pre-made install script by the official maintainers
-- Linux
-    - Linux Kernel
-        + Manual Compilation
