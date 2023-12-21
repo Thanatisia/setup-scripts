@@ -1,0 +1,41 @@
+# Installation setup script definitions and recipe file
+# 
+# [Structure]
+# - version: "[version-number]"
+#
+# - settings: Specify your system configuration settings/definitions here
+#    - Type: List
+#    - Sub-values:
+#        - TBC
+#
+# - applications: Specify your application/package configuration and definitions here
+#    - Type: List
+#        - [application-name]: Specify the name of the application/package here
+#            - Type: Dictionary
+#            - Sub-key values:
+#                - dependencies:   Place all dependencies and package requirements here
+#                    - Type: List
+#                - pre-requisites: Place all pre-requisites system shellscript commands here to execute
+#                    - Type: List
+#                - installation:   Place all installation system commands here to execute
+#                    - Type: List
+
+version: "0.1"
+
+settings:
+    ## Specify your system configuration settings/definitions here
+    ## - Settings still in planning stages
+
+applications:
+    ## Specify your application/package configuration and definitions here
+    [application-name]: # Specify the name of the application/package here
+        dependencies:
+            # Place all dependencies and package requirements here
+            # - [package-dependencies-name]
+        pre-requisites:
+            # Place all pre-requisites system shellscript commands here to execute
+            # - "command-executable {options} <arguments> ..."
+        installation:
+            # Place all installation system commands here to execute
+            # - "command-executable {options} <arguments> ..."
+
