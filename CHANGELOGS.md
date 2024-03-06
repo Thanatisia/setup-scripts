@@ -12,4 +12,9 @@
 - Added LICENSE
 - Added CONTRIBUTING.md containing contribution steps
 
+### 2023-12-21
+#### 2200H
+- New
+    - Started creating a build-from-source package manager for installing/setting up projects/packages from scratch
+
 
